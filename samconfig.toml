@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-nested-sample"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-f9z92q7pr0wt"
+s3_prefix = "sam-nested-sample"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND"
